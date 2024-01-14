@@ -19,7 +19,7 @@ function Resume() {
     }),
   }
   const handleDownload = () => {
-    const cvFileName = 'Cv_Ennajy_Youness.pdf';
+    const cvFileName = 'CV_Ennajy_Youness .pdf';
     const link = document.createElement('a');
     link.href = `${process.env.PUBLIC_URL}/${cvFileName}`;
     link.download = cvFileName;
@@ -28,7 +28,6 @@ function Resume() {
   return (
     <section id="resume" className="resume">
       <div className="container">
-
         <div className="section-title">
           <h2>Resume</h2> 
           <p>
