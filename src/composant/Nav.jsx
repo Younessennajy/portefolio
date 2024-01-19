@@ -18,11 +18,6 @@ function Nav() {
           </Link>
         </li>
         <li>
-          <Link to="resume" spy={true} smooth={true} offset={-70} duration={500}>
-            <i ><FaFile   /></i> <span>Resume</span>
-          </Link>
-        </li>
-        <li>
           <Link to="portfolio" spy={true} smooth={true} offset={-70} duration={500}>
             <i ><FaCode/></i> <span>Project</span>
           </Link>

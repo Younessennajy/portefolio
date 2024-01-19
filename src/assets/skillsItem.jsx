@@ -4,6 +4,7 @@ const Frontend =[
     {name:'css',icon:<FaCss3 />},
     {name:'react',icon:<FaReact />},
     {name:'bootstrapp',icon:<FaBootstrap />},
+    {name:'tailwid',icon:<faTailwind />},
   ];
   const Backend =[
     {name:'Php',icon:<FaPhp />},
@@ -18,14 +19,22 @@ const Frontend =[
     {name:<FaWordpress/>},
   ]
   const skills =[
-    {name : 'jira'},
-    {name : 'UML'},
-    {name : 'Apache'},
-    {name : 'Docker '},
-    {name : 'SonarQube'},
-    {name : 'Office Skills '},
-    {name : 'Git, GitHub, GitLab'},
-    {name : 'Project Management Methodology'},
-    
+
+    {name : 'UML (Modélisation)',categorie : 'Frameworks et Outils :'},
+    {name : 'Apache (Serveur Web)',categorie : 'Frameworks et Outils :'},
+    {name : 'Agile, Y, V',categorie:'Environnements de Développement :'},
+    {name : 'Microsoft Office, Installation et Formatage ',categorie:'Compétences en Bureautique :'},
+    {name : 'Windows, Linux',categorie:'Environnements :'},
+    {name : 'Apache',categorie:'Serveur Web :'},
+    {name : 'Relationnelles, Réparties, Objets, NoSQL, MongoDB ',categorie:'Bases de Données :'},
+    {name : 'Docker (Conteneurisation)',categorie : 'Frameworks et Outils :'},
+    {name : 'SonarQube (Analyse de Code)',categorie : 'Frameworks et Outils :'},
+    {name : 'Git, GitHub, GitLab',categorie : 'Frameworks et Outils :'},
+    {name : 'Méthodologies de Gestion de Projet :',categorie:'Environnements de Développement :'},
   ]
   export { Frontend, Backend, Databases, CMS, skills };
+
+
+
+
+

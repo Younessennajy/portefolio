@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {  FaLocationArrow } from 'react-icons/fa';
+import {  FaDownload, FaLocationArrow } from 'react-icons/fa';
 function Contact() {
   const [email,setemail]=useState('')
   const [name,setname]=useState('')
@@ -17,7 +17,13 @@ function Contact() {
     alert(`Thank you ${name} for visiting! If you have any questions or inquiries, feel free to contact me on WhatsApp at +212 649962806 or via email at younessennajy30@gmail.com. :)`)
       reset();
   }
-  
+  const handleDownload = () => {
+    const cvFileName = 'CV_Ennajy_Youness .pdf';
+    const link = document.createElement('a');
+    link.href = `${process.env.PUBLIC_URL}/${cvFileName}`;
+    link.download = cvFileName;
+    link.click();
+  };
   return (
     <section id="contact" className="contact">
       <div className="container">
@@ -74,6 +80,8 @@ function Contact() {
         </div>
 
       </div>
+      <button id='cv-btn' className="btn btn-primary" onClick={handleDownload}><FaDownload/>  CV</button>
+
     </section>
   )
 }

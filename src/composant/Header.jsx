@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import profile_img from './../assets/img/profile_aside.png';
 import {  FaBars   } from 'react-icons/fa';
 import Nav from './Nav';
-import { FaGithub, FaInstagram, FaLinkedin, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 import './../style/style.css';
 
 function Header() {
@@ -21,7 +21,6 @@ function Header() {
             <a href="https://mailto:younessennajy30@gmail.com" target="_blank" rel="noopener noreferrer"><i><FaEnvelope /></i></a>
             <a href="https://www.linkedin.com/in/ennajy-youness"  target="_blank"><i><FaLinkedin /></i></a>
             <a href="https://github.com/Younessennajy" target="_blank" rel="noopener noreferrer"><i><FaGithub /></i></a>
-            <a href="https://www.instagram.com/ennajy_code/" target="_blank" rel="noopener noreferrer"><i><FaInstagram /></i></a>
             <a href="https://wa.me/+212649962806" target="_blank" rel="noopener noreferrer"><i><FaWhatsapp /></i></a>
           </div>
         </div>

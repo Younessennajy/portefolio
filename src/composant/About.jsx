@@ -47,7 +47,7 @@ function About() {
           once:true,
         }}
 >
-          <img src={profile_img} className="img-fluid" alt=""/>
+        <img src={profile_img} className="img-fluid" alt="profile"/>
         </motion.div>
         <motion.div className="col-lg-8 pt-4 pt-lg-0 content"
         variants={AnimateAbout}
